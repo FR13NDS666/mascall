@@ -42,7 +42,8 @@ def balik():
     if d == "y":
        subprocess.call("python kintil.py",shell=True)
     elif d == "t":
-         os.system("\033[1;91mexit")
+         print ("\033[1;91mExit")
+         os.system("exit")
 bersih()
 subprocess.call("figlet SpamCall |lolcat",shell=True)
 banner = """
