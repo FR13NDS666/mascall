@@ -81,9 +81,9 @@ bro = {
 def kirim():
     try:
         for i in range(jm):
-            time.sleep(5)
             r = requests.get(url,data=bro, headers=head)
             print ("\033[1;97m[\033[1;96mResult\033[1;97m:\033[1;93m", r.json()["result"],"\033[1;97m[\033[1;96mStatus\033[1;97m]:\033[1;93m", r.json()["message"])
+            time.sleep(3)
     except KeyboardInterrupt:
             print ("\033[1;91mStop!!")
 kirim()
