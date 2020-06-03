@@ -25,7 +25,7 @@ echo -e "\033[1;34m║  \033[90m{\033[1;31m•\033[90m}  \033[1;37mAuthor    :  
 echo -e "\033[1;34m║\033[90m  {\033[1;31m•\033[90m} \033[1;37m Youtube   : \033[1;36m  Apmz Channel \033[1;34m                     ║"
 echo -e "\033[1;34m║\033[90m  {\033[1;31m•\033[90m} \033[1;37m Github    :\033[1;32m   https://github.com/BangDanz  \033[1;34m     ║"
 echo -e "\033[1;34m╚═══════════════════════════════════════════════════════╝"
-echo -e "\033[1;37mMasukan Nomor Tanpa (08/62)"
+echo -e "\033[1;37mMasukan Nomor Tanpa (0/62)"
 sleep 0.1
 echo -e "\033[1;37mMASUKAN NO TARGET \033[1;32m " ;read -p "=> " nomor
 link="https://id.jagreward.com/member/verify-mobile/$nomor"
@@ -40,8 +40,8 @@ sleep 0.2
 ulang(){
 echo ""
 echo -e "${o}Coba Lagi ?"
-echo -e "${g}y${o}/${g}n${o}"
-read -p ">>> " ula
+echo -e "${o}y${o}/${o}n${g}"
+read -p "=> " ula
 if [[ $ula == "y" ]]; then
 u
 elif [[ $ula == "n" ]]; then
