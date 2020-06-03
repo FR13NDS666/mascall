@@ -18,8 +18,8 @@ command -v ruby > /dev/null 2>&1 || { echo >&2 "ruby belum terinstall ketik >> p
 mulai(){
 echo ""
 sleep 0.1
-echo -e "                     \033[90m~  ~  ~  \033[1;32m ┌∩┐(\033[1;31m◣_◢\033[1;32m)┌∩┐\033[90m   ~  ~  ~"
-echo -e "\033[1;37m                            SPAM CALL VERSI(\033[1;32m2.0\033[1;37m)"
+echo -e "             \033[90m~  ~  ~  \033[1;32m ┌∩┐(\033[1;31m◣_◢\033[1;32m)┌∩┐\033[90m   ~  ~  ~"
+echo -e "\033[1;37m            SPAM CALL VERSI(\033[1;32m2.0\033[1;37m)"
 echo -e "\033[1;34m╔═══════════════════════════════════════════════════════╗"
 echo -e "\033[1;34m║  \033[90m{\033[1;31m•\033[90m}  \033[1;37mAuthor    :   \033[1;36mFahmi Apz    \033[1;34m                     ║"
 echo -e "\033[1;34m║\033[90m  {\033[1;31m•\033[90m} \033[1;37m Youtube   : \033[1;36m  Apmz Channel \033[1;34m                     ║"
@@ -27,7 +27,7 @@ echo -e "\033[1;34m║\033[90m  {\033[1;31m•\033[90m} \033[1;37m Github    :\0
 echo -e "\033[1;34m╚═══════════════════════════════════════════════════════╝"
 echo -e "\033[1;37mMasukan Nomor Tanpa (08/62)"
 sleep 0.1
-echo -e "\033[1;37mMASUKAN NO TARGET =>\033[1;32m " ;read -p ">>> " nomor
+echo -e "\033[1;37mMASUKAN NO TARGET \033[1;32m " ;read -p "=> " nomor
 link="https://id.jagreward.com/member/verify-mobile/$nomor"
 gas="curl -s $link"
 sleep 0.1
