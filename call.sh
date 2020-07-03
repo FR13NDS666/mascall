@@ -27,7 +27,7 @@ echo -e "\033[1;34m║\033[90m  {\033[1;31m•\033[90m} \033[1;37m Github    :\0
 echo -e "\033[1;34m╚═══════════════════════════════════════════════════════╝"
 echo -e "\033[1;37mMasukan Nomor Tanpa (0/62)"
 sleep 0.1
-echo -e "\033[1;37mMASUKAN NO TARGET \033[1;32m " ;read -p "=> " nomor
+echo -e "\033[1;37mMASUKAN NO TARGET contoh (85770555837) \033[1;32m " ;read -p "=> " nomor
 link="https://id.jagreward.com/member/verify-mobile/$nomor"
 gas="curl -s $link"
 sleep 0.1
